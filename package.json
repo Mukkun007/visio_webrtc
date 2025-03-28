@@ -1,0 +1,24 @@
+{
+  "name": "new-visio-webrtc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "serve-favicon": "^2.5.0",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "scripts": {
+    "watch": "nodemon --watch \"src/\" --exec \"node src/app.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
